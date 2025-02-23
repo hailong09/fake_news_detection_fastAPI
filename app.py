@@ -1,15 +1,7 @@
-import os
 from fastapi import FastAPI
 from pydantic import BaseModel
 from transformers import pipeline
-from huggingface_hub import login
-from dotenv import load_dotenv
 
-load_dotenv()
-
-api_key = os.getenv("HF_API_KEY")
-
-login(api_key)
 
 model_name = "hldo/my-fake-news-model"
 

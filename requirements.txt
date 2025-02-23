@@ -1,11 +1,6 @@
-dotenv==0.9.9
 fastapi==0.115.8
 huggingface-hub==0.29.1
-keras==3.8.0
-python-dotenv==1.0.1
-tensorflow==2.18.0
-tf_keras==2.18.0
-tokenizers==0.21.0
+pydantic==2.10.6
 transformers==4.49.0
 uvicorn==0.34.0
 

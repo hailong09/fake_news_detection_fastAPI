@@ -2,8 +2,6 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from transformers import pipeline
 
-import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "-1"  # Disable GPU
 
 model_name = "hldo/my-fake-news-model"
 
